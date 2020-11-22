@@ -1,0 +1,15 @@
+"""
+* * * * * * *
+* * * * * *
+* * * * *
+* * * *
+* * *
+* *
+*
+"""
+n = int(input("Enter the number of rows you want to print?"))
+i, j = 0, 0
+for i in range(0, n):
+    print()
+    for j in range(i, n):
+        print('*', end=" ")
